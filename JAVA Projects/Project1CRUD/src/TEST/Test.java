@@ -1,10 +1,11 @@
 package TEST;
 
-import DAO.StudentDAO;
-import DAO.StudentDAOImp;
-import com.company.Student;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.company.Student;
+
+import DAO.StudentDAOImp;
 
 public class Test {
     public static void main(String[] args) {
