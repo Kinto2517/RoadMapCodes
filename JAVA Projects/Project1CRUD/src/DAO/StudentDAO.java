@@ -8,4 +8,5 @@ public interface StudentDAO {
     List<Student> findAllStudents();
     void insert(Student student);
     void insert(List<Student> students);
+    boolean deleteRecordID(int id);
 }
