@@ -51,6 +51,19 @@ public class StudentDAOImp implements StudentDAO {
 
     }
 
+    @Override
+    public boolean deleteRecordID(String name, String address) {
+
+        String sql = "Delete from school.student where student_name=\""+name+"\" or student_address=\""+address+"\"";
+        int a = jdbcT.update(sql);
+        return a==1;
+    }
+
+    @Override
+    public void cleanUp(){
+        String sql = "Truncate table school.student";
+        jdbcT.execute(sql);
+    }
 
     public void setJdbcT(JdbcTemplate jdbcT) {
         this.jdbcT = jdbcT;

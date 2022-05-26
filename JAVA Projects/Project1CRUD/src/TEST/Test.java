@@ -23,7 +23,7 @@ public class Test {
 
         System.out.println(slist);
 
-        boolean isDeleted =studentDAOImp.deleteRecordID(5);
+        boolean isDeleted =studentDAOImp.deleteRecordID("Ersin Yılm","Address St.");
         if(isDeleted){
             System.out.println("Yay");
         }
