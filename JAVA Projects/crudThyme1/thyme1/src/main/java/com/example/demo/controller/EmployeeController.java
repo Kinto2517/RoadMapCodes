@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.model.Employee;
 import com.example.demo.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,10 +14,17 @@ public class EmployeeController {
     private EmployeeService employeeService;
 
     @GetMapping("/")
-    public String viewHomePage(Model model){
+    public String viewHomePage(Model model) {
 
         model.addAttribute("listEmployees", employeeService.getAllEmployees());
         return "index";
+    }
+
+    @GetMapping("/addEmployeeForm")
+    public String addEmployeeForm(Model model) {
+        Employee employee = new Employee();
+        model.addAttribute("employee",employee);
+        return "add_employee";
     }
 
 }
