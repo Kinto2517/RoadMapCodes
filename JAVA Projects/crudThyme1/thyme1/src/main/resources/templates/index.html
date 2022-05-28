@@ -16,6 +16,7 @@
             <th>Emp Name</th>
             <th>Emp Surname</th>
             <th>Emp Email</th>
+            <th>Actions</th>
         </tr>
         </thead>
 
@@ -24,6 +25,7 @@
                 <td th:text="${employee.firstName}"></td>
                 <td th:text="${employee.lastName}"></td>
                 <td th:text="${employee.email}"></td>
+                <td th:href="@{/updateEmployeeForm/{id}(id=${employee.id})}" class="btn btn-dark">Update</td>
             </tr>
         </tbody>
 
