@@ -25,10 +25,7 @@ public class EmployeeServiceImp implements EmployeeService{
     }
 
 
-    @Override
-    public void deleteEmployee(Employee employee) {
-        employeeRepository.delete(employee);
-    }
+
 
     @Override
     public Employee getEmployeeByID(long id) {
@@ -40,6 +37,11 @@ public class EmployeeServiceImp implements EmployeeService{
             throw new RuntimeException("Employee not found for id: "+id);
         }
         return employee;
+    }
+
+    @Override
+    public void deleteEmployee(long id) {
+        employeeRepository.deleteById(id);
     }
 
 
