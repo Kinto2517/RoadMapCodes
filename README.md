@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, This is RoadMap Codes</h1>
-<h3 align="center">I will fill this repository with: JS, Hibernate, Spring IOC, Spring REST, Spring MVC, Spring boot, Spring ORM, React, Angular, Vue, E-Commerce Website that I'm working on,</h3>
+<h2 align="center">I will fill this repository with: <b>JS</b>, <b>Hibernate</b>, Spring IOC, Spring REST, Spring MVC, Spring boot, Spring ORM, React, Angular, Vue, E-Commerce Website that I'm working on</h2>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kinto2517&label=Profile%20views&color=0e75b6&style=flat" alt="kinto2517" /> </p>
 
