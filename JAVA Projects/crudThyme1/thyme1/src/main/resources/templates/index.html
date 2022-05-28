@@ -26,7 +26,7 @@
                 <td th:text="${employee.lastName}"></td>
                 <td th:text="${employee.email}"></td>
                 <td class="btn btn-dark"><a th:href="@{/updateEmployeeForm/{id}(id=${employee.id})}">Update</a></td>
-                <td class="btn btn-dangera"><a th:href="@{/deleteEmployee/{id}(id=${employee.id})}">Delete</a></td>
+                <td class="btn btn-danger"><a th:href="@{/deleteEmployee/{id}(id=${employee.id})}">Delete</a></td>
 
             </tr>
         </tbody>
