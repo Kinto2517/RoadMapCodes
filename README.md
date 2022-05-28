@@ -13,7 +13,7 @@
 
 - 💬 Ask me about **How is my day going.**
 
-- 📫 How to reach me **ersin.yilmaz2517@gmail.com or linkedin/ersinya**
+- 📫 How to reach me **ersin.yilmaz2517@gmail.com or linkedin.com/ersinya**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
