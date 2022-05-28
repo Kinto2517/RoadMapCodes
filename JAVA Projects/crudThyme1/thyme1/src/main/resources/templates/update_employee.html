@@ -9,7 +9,7 @@
 <body>
 
 <div>
-    <form th:action="@{/updateEmployee}" th:object="${employee}" method="Post" action="#">
+    <form th:action="@{/saveEmployee}" th:object="${employee}" method="Post" action="#">
         <input type="hidden" th:field="*{id}"/>
         <input type="text" th:field="*{firstName}" placeholder="First Name" class="form-control col-4">
 

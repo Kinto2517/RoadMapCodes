@@ -41,11 +41,5 @@ public class EmployeeController {
         return "update_employee";
     }
 
-    @PostMapping("/updateEmployee")
-    public String updateEmployee(@ModelAttribute("employee") Employee employee) {
-
-        employeeService.updateEmployee(employee);
-        return "redirect:/";
-    }
 
 }
