@@ -24,10 +24,6 @@ public class EmployeeServiceImp implements EmployeeService{
         employeeRepository.save(employee);
     }
 
-    @Override
-    public void updateEmployee(Employee employee) {
-
-    }
 
     @Override
     public void deleteEmployee(Employee employee) {
