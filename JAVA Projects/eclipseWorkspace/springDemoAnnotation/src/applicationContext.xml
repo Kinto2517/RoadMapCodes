@@ -8,20 +8,5 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<context:annotation-config />
-	<context:component-scan
-		base-package="com.baeldung.applicationcontext" />
-	<context:property-placeholder
-		location="classpath:values.properties" />
-		
-	<bean id="database" class="springIntro.MySQLCustomerDal">
-		<property name="connectionStr" value="${local.email}"></property>
-	</bean>
-
-
-	<bean id="service" class="springIntro.CustomerManager">
-		<property name="customerDal" ref="database">
-		</property>
-		<constructor-arg ref="database" />
-	</bean>
-
+	<context:component-scan base-package="com.springdemo"></context:component-scan>
 </beans>

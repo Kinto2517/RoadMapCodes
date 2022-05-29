@@ -14,7 +14,7 @@
 		location="classpath:values.properties" />
 		
 	<bean id="database" class="springIntro.MySQLCustomerDal">
-		<property name="connectionStr" value="Hey"></property>
+		<property name="connectionStr" value="${local.email}"></property>
 	</bean>
 
 

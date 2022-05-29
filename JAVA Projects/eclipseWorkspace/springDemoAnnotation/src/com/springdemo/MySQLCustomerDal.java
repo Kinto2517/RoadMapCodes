@@ -1,9 +1,13 @@
-package springIntro;
+package com.springdemo;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 
 public class MySQLCustomerDal implements ICustomerDal{
 
 	
+	@Value("${database.connectionString}")
 	String connectionStr;
 	public String getConnectionStr() {
 		return connectionStr;
