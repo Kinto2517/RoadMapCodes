@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/antlr4-runtime-4.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/byte-buddy-1.12.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/hibernate-commons-annotations-6.0.0.CR1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/hibernate-core-6.0.0.CR2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/istack-commons-runtime-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/jakarta.activation-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/jakarta.activation-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/jakarta.inject-api-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/jakarta.persistence-api-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/jakarta.transaction-api-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/jakarta.xml.bind-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/jandex-2.4.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/jaxb-core-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/jaxb-runtime-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/jboss-logging-3.4.3.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/hibernate-release-6.0.0.CR2/lib/required/txw2-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ersin/Desktop/Spring Libraries/mysql/mysql-connector-java-8.0.29.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
