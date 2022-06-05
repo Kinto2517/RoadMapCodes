@@ -4,4 +4,12 @@
        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                       http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
        bean-discovery-mode="all">
+
+
+    <interceptors>
+        <class>com.kinto.springee.aop.interceptor.interceptorYolKesiciAsilsiz</class>
+    </interceptors>
+    <alternatives>
+        <class>com.kinto.springee.alternative.Patron1</class>
+    </alternatives>
 </beans>
