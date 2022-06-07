@@ -13,13 +13,13 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 @Entity
-@Table(name = "car_type")
+@Table(name = "car_types")
 public class CarType {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name  ="car_type_id")
-    private Long carId;
+    private Long car_type_id;
 
     @Column(name  ="car_type")
     private String carType;
