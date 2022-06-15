@@ -1,65 +1,71 @@
-package com.company;
-
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
 import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
 
-abstract class Book {
-    String title;
-    String author;
 
-    Book(String title, String author) {
-        this.title = title;
-        this.author = author;
+
+class Result {
+
+    /*
+     * Complete the 'decryptMessage' function below.
+     *
+     * The function is expected to return a STRING.
+     * The function accepts STRING encryptedMessage as parameter.
+     */
+
+    public static String decryptMessage(String encryptedMessage) {
+        StringBuffer strb = new StringBuffer();
+
+        String[] strArray = encryptedMessage.split(" ");
+        for (int i = 0; i < strArray.length; i++) {
+            int count = 0;
+            for (int j = 0; j < strArray[i].toString().length(); j++) {
+
+                char c = strArray[i].toString().charAt(i);
+                if (Character.isDigit(c)) {
+                    count = count * 10 + c - '0';
+                } else {
+                    while (count >0){
+                        strb.append(c);
+                        count--;
+                    }
+                }
+                strArray[i]=strb.toString();
+            }
+        }
+
+
+        for(int i = strArray.length-1; i>=0; i--) {
+            strb.append(strArray[i]);
+            strb.append(" ");
+        }
+        String a = strb.toString();
+        return a;
     }
 
-    abstract void display();
 }
-
-class MyBook extends Book {
-    private int price;
-    MyBook(String title, String author, int price){
-        super(title,author);
-        this.price=price;
-    }
-
-     void display(){
-         System.out.println("Title: "+title);
-         System.out.println("Author: "+author);
-         System.out.println("Price: "+price);
-     }
-
-}
-
-// Declare your class here. Do not use the 'public' access modifier.
-// Declare the price instance variable
-
-/**
- *   Class Constructor
- *
- *   @param title The book's title.
- *   @param author The book's author.
- *   @param price The book's price.
- **/
-// Write your constructor here
-
-/**
- *   Method Name: display
- *
- *   Print the title, author, and price in the specified format.
- **/
-// Write your method here
-
-// End class
 
 public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String title = scanner.nextLine();
-        String author = scanner.nextLine();
-        int price = scanner.nextInt();
-        scanner.close();
+        String encryptedMessage = bufferedReader.readLine();
 
-        Book book = new MyBook(title, author, price);
-        book.display();
+        String result = Result.decryptMessage(encryptedMessage);
+
+        bufferedWriter.write(result);
+        bufferedWriter.newLine();
+
+        bufferedReader.close();
+        bufferedWriter.close();
     }
 }
