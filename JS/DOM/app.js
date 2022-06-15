@@ -55,10 +55,63 @@ const element = document.querySelector("#clear-todos");
 // console.log(element.innerHTML);
 // console.log(element.href);
 
-//style ve element özellikleri
-element.className = "btn btn-primary";
-element.style.color="#000";
-element.style.marginLeft="20px"
-element.href="";
-element.target="_blank";
+// //style ve element özellikleri
+// element.className = "btn btn-primary";
+// element.style.color="#000";
+// element.style.marginLeft="20px"
+// element.href="";
+// element.target="_blank";
+
+// element.innerHTML="<span style='color:green'>Silin</span>"
+
+// const elements = document.querySelectorAll(".list-group-item");
+// elements.forEach(function(el){
+//     el.style.color = "red";
+//     el.style.background = "#eee";
+// })
+
+// let element2 = document.querySelector("li:last-child");
+// element2 = document.querySelector("li:nth-child(2)");
+// element2 = document.querySelectorAll("li:nth-child(even)");
+
+// element2.forEach(function (el){
+//     el.style.background="#ccc";
+//     el.style.color = "red";
+// });
+
+
+// let value;
+
+// const todoList = document.querySelector(".list-group");
+// const todo = document.querySelector(".list-group-item:nth-child(2)");
+// const cardrow = document.querySelector(".card.row");
+// value = cardrow;
+
+// value = cardrow.children; 
+// value = todo.previousElementSibling;
+
+// value = todo.nextElementSibling;
+
+
+
+// const newLink = document.createElement("a");
+// const cardbody = document.getElementsByClassName("card-body")[1];
+// newLink.id="clear-todos";
+// newLink.className = "btn btn-danger";
+// newLink.href="google.com"; 
+// newLink.target="_blank";
+
+// newLink.appendChild(document.createTextNode("Nbr"));
+
+// cardbody.appendChild(newLink);
+// // cardbody.removeChild(newLink);
+// // cardbody.remove;
+// // cardbody.replaceChild();
+
+
+// console.log(newLink);
+
+
+
+
 
