@@ -103,7 +103,6 @@ const element = document.querySelector("#clear-todos");
 
 // newLink.appendChild(document.createTextNode("Nbr"));
 
-// cardbody.appendChild(newLink);
 // // cardbody.removeChild(newLink);
 // // cardbody.remove;
 // // cardbody.replaceChild();
@@ -113,5 +112,58 @@ const element = document.querySelector("#clear-todos");
 
 
 
+const filterInp = document.getElementById("filter");
 
 
+// filterInp.onfocus = function(){
+//     console.log("nbr");
+//     // cardbody.appendChild(newLink);
+// }
+
+// filterInp.addEventListener("focus",function(e){
+//     console.log(e);
+//     e.target.placeholder="hey";
+// console.log("hey");
+// });
+
+// const todoFormSubmit = document.getElementById("todo-form");
+
+// todoFormSubmit.addEventListener("submit",submitForm);
+// document.addEventListener("keydown",function(e){
+//     console.log("meya");
+//     console.log(e.key);
+//     e.preventDefault();
+// });
+
+// function submitForm(e){
+// console.log("Submit Eventi");
+
+
+
+// e.preventDefault();
+// }
+document.addEventListener("dblclick",function(){
+
+    console.log("he");
+});
+
+document.addEventListener("DOMContentLoaded",function(e){
+    console.log("miyeee");
+});
+
+const cardbody= document.querySelectorAll(".card-body")[1];
+
+cardbody.addEventListener("click",function(e){
+
+    if(e.target.className === "fa fa-remove"){
+
+    }
+
+    if(e.target.id==="filter"){
+
+    }
+    if(e.target.id==="clear-todos"){
+        
+    }
+
+});
