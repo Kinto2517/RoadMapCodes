@@ -148,7 +148,7 @@ document.addEventListener("dblclick",function(){
 });
 
 document.addEventListener("DOMContentLoaded",function(e){
-    console.log("miyeee");
+    console.log("miyeee"); 
 });
 
 const cardbody= document.querySelectorAll(".card-body")[1];
