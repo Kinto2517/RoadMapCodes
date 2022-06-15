@@ -1,3 +1,5 @@
+package com.company;
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -29,7 +31,7 @@ class Result {
             int count = 0;
             for (int j = 0; j < strArray[i].toString().length(); j++) {
 
-                char c = strArray[i].toString().charAt(i);
+                char c = strArray[i].toString().charAt(j);
                 if (Character.isDigit(c)) {
                     count = count * 10 + c - '0';
                 } else {
@@ -40,6 +42,8 @@ class Result {
                 }
                 strArray[i]=strb.toString();
             }
+
+
         }
 
 
@@ -52,6 +56,9 @@ class Result {
     }
 
 }
+
+
+
 
 public class Solution {
     public static void main(String[] args) throws IOException {
