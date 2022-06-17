@@ -72,12 +72,8 @@
 // }
 
 // setTimeout 5snde sonra kapat
-// value = setInterval her 5snde 
+// value = setInterval her 5snde
 // clearInterval(value);
-
-
-
-
 
 // function process1(callback){
 //     setTimeout(function(){
@@ -85,7 +81,6 @@
 //         callback();
 //     },3000)
 // }
-
 
 // function process2(){
 //     setTimeout(function(){
@@ -95,49 +90,72 @@
 
 // process1(process2);
 
-
-
-
-
-
 // Ajax callbacck
 
-class Request{
+class Request {
+  constructor() {
+    this.xhr = new XMLHttpRequest();
+  }
 
-    constructor(){
-        this.xhr=new XMLHttpRequest();
-    }
+  get(url, callback) {
+    this.xhr.open("GET", url);
 
-    get(url,callback){
-        this.xhr.open("GET",url);
-        
-        this.xhr.onload = ()=>{
-            if(this.xhr.status===200){
-                callback(null,this.xhr.responseText);
-            }else{
-                callback("Hata",null);
-            }
-        }
+    this.xhr.onload = () => {
+      if (this.xhr.status === 200) {
+        callback(null, this.xhr.responseText);
+      } else {
+        callback("Hata", null);
+      }
+    };
 
-        this.xhr.send();
-    }
+    this.xhr.send();
+  }
 
-   post(url,data,callback){
-       this.xhr.open("POST",url);
-       this.xhr.setRequestHeader("Content-type", "application/json")
+  post(url, data, callback) {
+    this.xhr.open("POST", url);
+    this.xhr.setRequestHeader("Content-type", "application/json");
 
-       this.xhr.onload = ()=>{
-           if(this.xhr.status===201){
-               callback(null,this.xhr.responseText)
-           }else{
-               callback("Hata ",null);
-           }    
+    this.xhr.onload = () => {
+      if (this.xhr.status === 201) {
+        callback(null, this.xhr.responseText);
+      } else {
+        callback("Hata ", null);
+      }
+    };
 
-       }
+    this.xhr.send(JSON.stringify(data));
+  }
 
-       this.xhr.send(JSON.stringify(data));
 
-   }
+  put(url, data, callback) {
+    this.xhr.open("PUT", url);
+    this.xhr.setRequestHeader("Content-type", "application/json");
+
+    this.xhr.onload = () => {
+      if (this.xhr.status === 200) {
+        callback(null, this.xhr.responseText);
+      } else {
+        callback("Hata put", null);
+      }
+    };
+
+    this.xhr.send(JSON.stringify(data));
+  }
+
+  delete(url, callback) {
+    this.xhr.open("DELETE", url);
+
+    this.xhr.onload = () => {
+      if (this.xhr.status === 200) {
+        callback(null, this.xhr.responseText);
+      } else {
+        callback("Hata", null);
+      }
+    };
+
+    this.xhr.send();
+  }
+
 
 }
 // const request = new Request();
@@ -145,19 +163,33 @@ class Request{
 // console.log(response);
 // });
 
+// request.post(
+//   "https://jsonplaceholder.typicode.com/albums",
+//   { userId: 2, title: "Thriller" },
+//   function (err, response) {
+//     if (err == null) {
+//       console.log(response);
+//     } else {
+//       console.log(err);
+//     }
+//   }
+// );
 
-request.post("https://jsonplaceholder.typicode.com/albums",{userId:2,title:"Thriller"},function(err,response){
+// request.put(
+//     "https://jsonplaceholder.typicode.com/albums/10",
+//     { userId: 143, title: "miyov" },
+//     function (err, response) {
+//       if (err == null) {
+//         console.log(response);
+//       } else {
+//         console.log(err);
+//       }
+//     }
+//   );
 
-if(err==null){
-    console.log(response); 
 
-}else{
-    console.log(err);
-}
-
-});
-
-
-
-
+// const request = new Request();
+// request.delete("https://jsonplaceholder.typicode.com/albums/10",function(err, response){
+// console.log(response);
+// });
 
