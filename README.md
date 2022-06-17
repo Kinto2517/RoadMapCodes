@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kinto2517&label=Profile%20views&color=0e75b6&style=flat" alt="kinto2517" /> </p>
 
-- 🔭 I’m currently working on **Spring Boot, Thymeleaf and JS**
+- 🔭 I’m currently working on **Spring Boot, Thymeleaf, AJAX and JS**
 
 - 🌱 I’m currently learning **Thymeleaf, Spring boot, Hibernate , JS**
 
