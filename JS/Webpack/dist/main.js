@@ -1,0 +1,1 @@
+(()=>{"use strict";(class{static Test(){console.log("Test")}}).Test(),class{static Test(){console.log("Employee Test")}}.Test()})();
