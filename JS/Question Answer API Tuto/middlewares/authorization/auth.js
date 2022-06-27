@@ -5,6 +5,7 @@ const {
 } = require("../../helpers/authorization/tokenHelpers");
 const jwt = require("jsonwebtoken");
 const asyncErrorWrapper = require("express-async-handler");
+const User = require("../../models/User");
 
 
 const getAccessToRoute =  asyncErrorWrapper((req, res, next) => {
@@ -31,6 +32,19 @@ const getAccessToRoute =  asyncErrorWrapper((req, res, next) => {
   next();
 });
 
+const getAdminAccess = asyncErrorWrapper( async(req, res, next) => {
+
+  const user = await User.findById(req.user.id);
+
+  if(user.role !== "admin") {
+    return next(new CustomError("You are not admin", 401));
+  }
+
+  next();
+})
+
+
 module.exports = {
   getAccessToRoute,
+  getAdminAccess
 };

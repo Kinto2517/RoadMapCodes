@@ -84,7 +84,7 @@ const resetPasswordToken = crypto.createHash("sha256").update(resetToken).digest
  this.resetPasswordExpire = Date.now() + 10 * 60 * 1000;
 
 
-
+    return resetToken;
 }
 
 userSchema.methods.generateJwtToken = function () {
