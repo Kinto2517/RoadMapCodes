@@ -58,7 +58,7 @@
 //     "GET",
 //     " https://api.apilayer.com/fixer/latest?base=USD&symbols=EUR,GBP,TRY"
 //   );
-//   xhr.setRequestHeader("apikey", "5kZSE8OxkUTWdH1pqYp7KHrrqHCbdPKH");
+//   xhr.setRequestHeader("apikey", "");
 
 //   xhr.onload = function () {
 //     if (this.status) {
