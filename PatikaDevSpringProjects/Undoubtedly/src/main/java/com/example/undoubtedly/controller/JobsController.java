@@ -22,13 +22,12 @@ public class JobsController {
     @Autowired
     private JobsService jobsService;
 
-
     @GetMapping("/jobs")
-    public String jobs(Model model) {
-
-        model.addAttribute("jobs", jobsService.getAllJobs());
-        return "jobs";
+    public String viewHomePage(Model model) {
+        return findPaginated(1,"jobType","asc",model);
     }
+
+
 
     @GetMapping("/jobs/search")
     public String search(@RequestParam("reportParam") String search, Model model) {
@@ -36,7 +35,7 @@ public class JobsController {
 
         model.addAttribute("jobs", jobs);
 
-        return "jobs";
+        return "redirect:/jobs";
     }
 
     @GetMapping("/jobs/add")
@@ -45,7 +44,7 @@ public class JobsController {
         Job job = new Job();
         logger.info("user: " + job);
         model.addAttribute("job", job);
-        return "addJob";
+        return "addJobs";
     }
 
     @PostMapping("/jobs/add")
@@ -53,7 +52,7 @@ public class JobsController {
         logger.info("addUser()");
         if (result.hasErrors()) {
             logger.info("addUser(): hasErrors");
-            return "addJob";
+            return "addJobs";
         }
         logger.info("job: " + job);
         jobsService.save(job);
@@ -61,13 +60,13 @@ public class JobsController {
     }
 
     @GetMapping("/jobs/delete")
-    public String delete(@RequestParam("jobId") Long jobId) {
+    public String delete(@RequestParam("id") Long id) {
         logger.info("delete()");
-        if (jobId == null) {
+        if (id == null) {
             logger.info("delete(): jobId is null");
             return "redirect:/jobs";
         }
-        jobsService.delete(jobId);
+        jobsService.delete(id);
         return "redirect:/jobs";
     }
 
@@ -78,12 +77,12 @@ public class JobsController {
 
         int pageSize = 5;
         Page<Job> page = jobsService.findPaginated(pageNo,pageSize,sortField,sortDir);
-        List<Job> employeeList = page.getContent();
+        List<Job> jobsList = page.getContent();
 
         model.addAttribute("currentPage", pageNo);
         model.addAttribute("totalPages", page.getTotalPages());
         model.addAttribute("totalItems", page.getTotalElements());
-        model.addAttribute("listEmployees", employeeList);
+        model.addAttribute("jobsList", jobsList);
 
         model.addAttribute("sortField", sortField);
         model.addAttribute("sortDir", sortDir);

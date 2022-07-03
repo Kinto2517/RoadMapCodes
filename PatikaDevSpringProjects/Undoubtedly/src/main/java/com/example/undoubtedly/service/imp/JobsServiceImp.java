@@ -51,7 +51,8 @@ public class JobsServiceImp implements JobsService {
                 Sort.by(sortField).descending();
         Pageable pageable = PageRequest.of(pageNo - 1, pageSize, sort);
 
-        return jobsRepository.findAll(pageable);
+
+        return this.jobsRepository.findAll(pageable);
     }
 
 }

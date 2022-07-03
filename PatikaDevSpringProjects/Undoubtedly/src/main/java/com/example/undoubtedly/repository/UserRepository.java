@@ -12,9 +12,9 @@ import java.util.List;
 
 @Repository
 @Transactional
-public interface UserRepository extends JpaRepository<com.example.undoubtedly.model.User, Long> {
+public interface UserRepository extends JpaRepository<User, Long> {
 
-    com.example.undoubtedly.model.User findByEmail(String email);
+    User findByEmail(String email);
 
     @Query("update User u set u.failed_attempt = ?1 where u.email = ?2")
     @Modifying
