@@ -1,5 +1,6 @@
 package com.example.atmproject.config;
 
+import com.example.atmproject.model.User;
 import com.example.atmproject.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -55,8 +56,8 @@ public class WebSecurityConf extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/", "/index").hasAnyRole("USER","ADMIN")
                 .antMatchers("/account/addForm").hasAnyRole("ADMIN")
-
                 .antMatchers("/register").permitAll()
+                .antMatchers("/login**").permitAll()
                 .antMatchers().hasRole("ADMIN")
                 .anyRequest().authenticated()
                 .and()
@@ -64,13 +65,10 @@ public class WebSecurityConf extends WebSecurityConfigurerAdapter {
                 .loginPage("/login")
                 .loginProcessingUrl("/login")
                 .defaultSuccessUrl("/account", true)
-                .failureUrl("/login.html?error=true")
-                .failureHandler(loginFailureHandler)
+                .failureHandler(customLoginFailure)
                 .permitAll()
                 .and()
                 .logout()
-                .invalidateHttpSession(true)
-                .clearAuthentication(true)
                 .permitAll().and()
                 .exceptionHandling().accessDeniedPage("/unauthorized");
 
@@ -78,14 +76,14 @@ public class WebSecurityConf extends WebSecurityConfigurerAdapter {
 
     }
 
+    @Autowired
+    CustomLoginFailureHandler customLoginFailure;
+
     @Override
     public void configure(WebSecurity web) throws Exception {
         web.ignoring().antMatchers("/resources/**", "/static/**", "/css/**", "/js/**", "/images/**");
 
     }
-
-    @Autowired
-    private CustomLoginFailureHandler loginFailureHandler;
 
 }
 

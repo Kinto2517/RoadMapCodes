@@ -26,9 +26,10 @@ public class UserTest {
     public void testUpdateFailedAttempt() {
 
         String email = "ersin@ersin.com";
-        int failed_attempt = 2;
+        int failed_attempt = 0;
 
         userRepository.updateFailedAttempt(failed_attempt, email);
+
 
         Long id = 1L;
         User user =entityManager.find(User.class, id);
