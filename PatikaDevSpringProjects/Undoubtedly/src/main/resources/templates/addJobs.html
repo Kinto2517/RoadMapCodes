@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Admin Page for Adding Report</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"
+            integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVkLH2X8VIwF7sx28G7AlTxfeIscP4Qzm"
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-light">
+
+<div class="container">
+    <div class="py-5 text-center">
+        <h2>Add Job Form</h2>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-8 order-md-1">
+            <h4 class="mb-3">Let's Add Job</h4>
+            <form action="#" th:action="@{/jobs/add}" th:object="${job}" method="post"
+                  class="needs-validation" novalidate>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="jobTitle">Job Title</label>
+                        <input th:field="*{jobTitle}" type="text" class="form-control" id="jobTitle" placeholder=""
+                               value=""
+                               required>
+                        <div class="invalid-feedback">
+                            Valid title is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="jobDescription">Job Description</label>
+                        <input th:field="*{jobDescription}" type="text" class="form-control" id="jobDescription"
+                               placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Valid description is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="jobLocation">Job Location</label>
+                        <input th:field="*{jobLocation}" type="text" class="form-control" id="jobLocation"
+                               placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Valid description is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="jobType">Job Type</label>
+                        <input th:field="*{jobType}" type="text" class="form-control" id="jobType"
+                               placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Valid description is required.
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label for="salary">Salary</label>
+                        <input th:field="*{salary}" type="text" class="form-control" id="salary"
+                               placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Valid description is required.
+                        </div>
+                    </div>
+
+                    <hr class="mb-4">
+                    <div th:if="${#fields.hasAnyErrors()}">
+                        <ul>
+                            <li th:each="err : ${#fields.allErrors()}" th:text="${err}"/>
+                        </ul>
+                    </div>
+
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Add Job</button>
+                </div>
+            </form>
+            <br><br>
+            <a th:href="@{/jobs}" class="btn btn-dark btn-m btn-block" type="submit">Jobs Table</a>
+
+        </div>
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; Kinto2517</p>
+
+    </footer>
+</div>
+
+</body>
+</html>

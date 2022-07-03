@@ -412,3 +412,5 @@
 2022-07-03 12:17:12.168 TRACE 11312 --- [http-nio-3003-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([vacatio13_0_] : [TIMESTAMP]) - [null]
 2022-07-03 12:17:12.169  INFO 11312 --- [http-nio-3003-exec-6] c.e.h.controller.UsersController         : Users: [com.example.humanresourcesproject.model.User@7aeb56a2, com.example.humanresourcesproject.model.User@34724159]
 2022-07-03 12:17:16.563  INFO 11312 --- [http-nio-3003-exec-8] c.e.h.controller.UsersController         : showRegistrationForm()
+2022-07-03 12:24:48.765 TRACE 11312 --- [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@d0c9495] for TypeConfiguration
+2022-07-03 12:24:48.765 DEBUG 11312 --- [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@7bd123cd] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@d0c9495]

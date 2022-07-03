@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<form th:action="@{/jobs/search}" class="form-inline">
+    <input class="form-control mr-sm-2 mb-3" style="width: 45%" type="search" name="reportParam"
+           placeholder="Search by name, surname or username"/>
+    <button class="btn btn-success mb-3" type="submit">Search</button>
+</form>
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-light">
+    <tr>
+        <th>
+            <a th:href="@{'/page/'+${currentPage}+'?sortField=jobTitle&sortDir='+${reverseSortDir}}">
+                Job Title
+            </a>
+        </th>
+
+        <th>
+            <a th:href="@{'/page/'+${currentPage}+'?sortField=jobDescription&sortDir='+${reverseSortDir}}">
+                Job Description
+            </a>
+        </th>
+
+        <th>
+            <a th:href="@{'/page/'+${currentPage}+'?sortField=jobLocation&sortDir='+${reverseSortDir}}">
+                Job Location
+            </a>
+        </th>
+
+        <th>
+            <a th:href="@{'/page/'+${currentPage}+'?sortField=jobType&sortDir='+${reverseSortDir}}">
+                Job Type
+            </a>
+        </th>
+
+        <th>
+            <a th:href="@{'/page/'+${currentPage}+'?sortField=jobSalary&sortDir='+${reverseSortDir}}">
+                Job Salary
+            </a>
+        </th>
+
+        <div sec:authorize="hasRole('ROLE_ADMIN')">
+            <th>Delete</th>
+        </div>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr th:each="job : ${jobs}">
+        <td th:text="${job.jobTitle}"/>
+        <td th:text="${job.jobDescription}"/>
+        <td th:text="${job.jobLocation}"/>
+        <td th:text="${job.jobType}"/>
+        <td th:text="${job.jobSalary}"/>
+        <div>
+            <td>
+                <a th:href="@{/jobs/delete(id=${job.id})}"
+                   class="btn btn-danger btn-sm"
+                   onclick="if (!(confirm('Are you sure you want to delete this report?'))) return false ">Delete</a>
+            </td>
+        </div>
+    </tr>
+    </tbody>
+</table>
+
+
+<div th:if="${totalPages>1}">
+    <div class="row col-sm-10">
+        <div class="col-sm-2">
+            Total Rows:[[${totalItems}]]
+        </div>
+        <div class="col-sm-1">
+                <span th:each="i:${#numbers.sequence(1,totalPages)}">
+                    <a th:if="${currentPage !=i}"
+                       th:href="@{'/page/'+${i}+'?sortField='+${sortField}+'&sortDir='+${sortDir}}">[[${i}]]</a>
+                    <span th:unless="${currentPage != i}">[[${i}]]</span> &nbsp; &nbsp;
+                </span>
+        </div>
+        <div class="col-sm-1">
+            <a th:if="${currentPage <totalPages}"
+               th:href="@{'/page/'+${currentPage+1}+'?sortField='+${sortField}+'&sortDir='+${sortDir}}">Next</a>
+            <span th:unless="${currentPage < totalPages}">Next</span> &nbsp; &nbsp;
+
+        </div>
+        <div class="col-sm-1">
+            <a th:if="${currentPage > 0 && currentPage<totalPages}"
+               th:href="@{'/page/'+${currentPage-1}+'?sortField='+${sortField}+'&sortDir='+${sortDir}}">Previous</a>
+            <span th:unless="${currentPage < totalPages}">Previous</span> &nbsp; &nbsp;
+
+        </div>
+        <div class="col-sm-1">
+            <a th:if="${currentPage <totalPages}"
+               th:href="@{'/page/'+${totalPages}+'?sortField='+${sortField}+'&sortDir='+${sortDir}}">Last</a>
+            <span th:unless="${currentPage < totalPages}">Last</span> &nbsp; &nbsp;
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
