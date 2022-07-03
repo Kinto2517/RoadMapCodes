@@ -6243,3 +6243,5 @@ org.springframework.data.mapping.PropertyReferenceException: No property 'firstN
 2022-07-03 19:00:19.965 TRACE 9172 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([job_type6_0_] : [VARCHAR]) - [sadece]
 2022-07-03 19:00:19.970 DEBUG 9172 --- [http-nio-3003-exec-1] org.hibernate.SQL                        : select count(job0_.id) as col_0_0_ from job job0_
 2022-07-03 19:00:19.972 TRACE 9172 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([col_0_0_] : [BIGINT]) - [11]
+2022-07-03 19:00:53.831 TRACE 9172 --- [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@6f1db734] for TypeConfiguration
+2022-07-03 19:00:53.831 DEBUG 9172 --- [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@f5fe60b] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@6f1db734]
