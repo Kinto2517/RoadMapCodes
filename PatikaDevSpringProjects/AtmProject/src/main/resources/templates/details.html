@@ -61,7 +61,7 @@
         <input type="text" id="toAccount" placeholder="Account Number">
     </div>
     <div class="row">
-        <a class="btn btn-danger" th:href="@{/account/transfer(fromAccountId=${account.id}, toAccountId=2, amount=100)}">Transfer</a>
+        <a class="btn btn-danger" th:href="@{/account/transfer(fromAccountId=${account.id}, toAccountId=${toAccount}, amount=100)}">Transfer</a>
     </div>
     <br><br>
     <a th:href="@{/account}" class="btn btn-info btn-m btn-block" type="submit">Accounts Table</a>

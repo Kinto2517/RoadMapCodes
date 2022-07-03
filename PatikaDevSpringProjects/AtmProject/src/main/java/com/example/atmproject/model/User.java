@@ -9,6 +9,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
 import java.util.Collection;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -33,10 +34,18 @@ public class User implements UserDetails {
     private String phone;
     private String address;
 
+
+    private boolean account_non_locked;
+
+    private int failed_attempt;
+
+    private Date lock_time;
+
     private String role;
 
     @OneToMany(mappedBy = "user",cascade = CascadeType.ALL)
     private Collection<Account> accounts;
+
 
     @Override
     public Set<GrantedAuthority> getAuthorities() {
@@ -59,7 +68,7 @@ public class User implements UserDetails {
 
     @Override
     public boolean isAccountNonLocked() {
-        return false;
+        return this.account_non_locked;
     }
 
     @Override

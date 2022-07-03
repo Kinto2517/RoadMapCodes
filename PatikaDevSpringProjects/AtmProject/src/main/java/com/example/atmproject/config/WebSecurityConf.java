@@ -65,12 +65,7 @@ public class WebSecurityConf extends WebSecurityConfigurerAdapter {
                 .loginProcessingUrl("/login")
                 .defaultSuccessUrl("/account", true)
                 .failureUrl("/login.html?error=true")
-                .failureHandler(new AuthenticationFailureHandler() {
-                    @Override
-                    public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response, AuthenticationException exception) throws IOException, ServletException {
-                        response.sendRedirect("/login.html?error=true");
-                    }
-                })
+                .failureHandler(loginFailureHandler)
                 .permitAll()
                 .and()
                 .logout()
@@ -88,6 +83,9 @@ public class WebSecurityConf extends WebSecurityConfigurerAdapter {
         web.ignoring().antMatchers("/resources/**", "/static/**", "/css/**", "/js/**", "/images/**");
 
     }
+
+    @Autowired
+    private CustomLoginFailureHandler loginFailureHandler;
 
 }
 

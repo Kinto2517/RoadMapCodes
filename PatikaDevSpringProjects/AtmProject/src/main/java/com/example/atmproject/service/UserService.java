@@ -10,4 +10,6 @@ public interface UserService extends UserDetailsService {
     User save(User user);
 
     List<User> getAllUsers();
+
+    User getByEmail(String email);
 }
