@@ -71,9 +71,14 @@ public class UsersController {
         return "redirect:/users";
     }
 
-    @PostMapping("/users/delete")
+    @GetMapping("/users/delete")
     public String delete(@RequestParam("id") Long id) {
         logger.debug("Deleting user with id: " + id);
+        User user = userService.getById(id);
+        if (user == null) {
+            logger.error("User with id: " + id + " not found");
+            return "redirect:/users";
+        }
         userService.delete(id);
         return "redirect:/users";
     }

@@ -1,0 +1,385 @@
+2022-07-03 11:56:23.306  INFO 12828 --- [restartedMain] c.e.h.HumanResourcesProjectApplication   : Starting HumanResourcesProjectApplication using Java 17.0.2 on DESKTOP-KTQV4OK with PID 12828 (C:\Users\ersin\Desktop\RoadMapCodes\PatikaDevSpringProjects\HumanResourcesProject\target\classes started by KintoAden in C:\Users\ersin\Desktop\RoadMapCodes\PatikaDevSpringProjects\HumanResourcesProject)
+2022-07-03 11:56:23.307 DEBUG 12828 --- [restartedMain] c.e.h.HumanResourcesProjectApplication   : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-03 11:56:23.308  INFO 12828 --- [restartedMain] c.e.h.HumanResourcesProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-03 11:56:24.985 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@6f83b4f1
+2022-07-03 11:56:24.986 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@6f83b4f1
+2022-07-03 11:56:24.986 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6f83b4f1
+2022-07-03 11:56:24.986 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2a703ef8
+2022-07-03 11:56:24.987 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@3087bd2
+2022-07-03 11:56:24.987 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@74f1127
+2022-07-03 11:56:24.988 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@6f177223
+2022-07-03 11:56:24.988 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@6f177223
+2022-07-03 11:56:24.988 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@6f177223
+2022-07-03 11:56:24.989 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@464b0e5
+2022-07-03 11:56:24.990 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@464b0e5
+2022-07-03 11:56:24.990 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@464b0e5
+2022-07-03 11:56:24.990 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@1d727ed
+2022-07-03 11:56:24.990 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@1d727ed
+2022-07-03 11:56:24.991 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1d727ed
+2022-07-03 11:56:24.991 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@71bc27af
+2022-07-03 11:56:24.991 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@71bc27af
+2022-07-03 11:56:24.991 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@71bc27af
+2022-07-03 11:56:24.992 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@3525c972
+2022-07-03 11:56:24.992 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@3525c972
+2022-07-03 11:56:24.992 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@3525c972
+2022-07-03 11:56:24.993 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@7e0d49aa
+2022-07-03 11:56:24.993 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@7e0d49aa
+2022-07-03 11:56:24.993 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@7e0d49aa
+2022-07-03 11:56:24.993 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@76efccd1
+2022-07-03 11:56:24.993 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@76efccd1
+2022-07-03 11:56:24.993 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@76efccd1
+2022-07-03 11:56:24.994 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@77b63a86
+2022-07-03 11:56:24.994 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@77b63a86
+2022-07-03 11:56:24.995 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7beda2dd
+2022-07-03 11:56:24.995 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7beda2dd
+2022-07-03 11:56:24.995 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@659725e6
+2022-07-03 11:56:24.995 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@659725e6
+2022-07-03 11:56:24.996 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@569538f8
+2022-07-03 11:56:24.997 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7fd04ad2
+2022-07-03 11:56:24.997 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@49a3f31b
+2022-07-03 11:56:24.997 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@49a3f31b
+2022-07-03 11:56:24.998 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@65233f6d
+2022-07-03 11:56:24.998 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@65233f6d
+2022-07-03 11:56:24.999 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@28132e51
+2022-07-03 11:56:24.999 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@28132e51
+2022-07-03 11:56:24.999 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@c7ffc51
+2022-07-03 11:56:25.000 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@c7ffc51
+2022-07-03 11:56:25.000 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@2cb8b5a9
+2022-07-03 11:56:25.000 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@2cb8b5a9
+2022-07-03 11:56:25.001 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@e409236
+2022-07-03 11:56:25.001 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@e409236
+2022-07-03 11:56:25.002 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@473d14fc
+2022-07-03 11:56:25.002 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@473d14fc
+2022-07-03 11:56:25.002 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@6861de4d
+2022-07-03 11:56:25.002 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@6861de4d
+2022-07-03 11:56:25.003 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2a8deebb
+2022-07-03 11:56:25.003 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2a8deebb
+2022-07-03 11:56:25.004 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@8803d6
+2022-07-03 11:56:25.004 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@8803d6
+2022-07-03 11:56:25.005 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@46e97345
+2022-07-03 11:56:25.005 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@46e97345
+2022-07-03 11:56:25.006 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@af98601
+2022-07-03 11:56:25.006 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@af98601
+2022-07-03 11:56:25.007 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@af98601
+2022-07-03 11:56:25.007 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1afc20ad
+2022-07-03 11:56:25.008 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@719f6c1b
+2022-07-03 11:56:25.008 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@719f6c1b
+2022-07-03 11:56:25.008 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@719f6c1b
+2022-07-03 11:56:25.009 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@70003953
+2022-07-03 11:56:25.009 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@7339927d
+2022-07-03 11:56:25.010 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@38b6d73a
+2022-07-03 11:56:25.010 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@38b6d73a
+2022-07-03 11:56:25.011 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@4dd5e115
+2022-07-03 11:56:25.011 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@4dd5e115
+2022-07-03 11:56:25.011 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@673612db
+2022-07-03 11:56:25.011 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@673612db
+2022-07-03 11:56:25.012 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@467f6d3f
+2022-07-03 11:56:25.012 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@467f6d3f
+2022-07-03 11:56:25.013 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@4a2da556
+2022-07-03 11:56:25.013 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@4a2da556
+2022-07-03 11:56:25.013 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@432e537
+2022-07-03 11:56:25.014 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@7c5203b7
+2022-07-03 11:56:25.014 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@7c5203b7
+2022-07-03 11:56:25.014 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@7c5203b7
+2022-07-03 11:56:25.014 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@476976af
+2022-07-03 11:56:25.015 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@476976af
+2022-07-03 11:56:25.015 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@476976af
+2022-07-03 11:56:25.016 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@430be4bf
+2022-07-03 11:56:25.016 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@140024c0
+2022-07-03 11:56:25.016 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@2f268ea9
+2022-07-03 11:56:25.017 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@2f268ea9
+2022-07-03 11:56:25.017 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@2f268ea9
+2022-07-03 11:56:25.017 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@43cd8c55
+2022-07-03 11:56:25.017 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@43cd8c55
+2022-07-03 11:56:25.017 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@43cd8c55
+2022-07-03 11:56:25.018 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@27064612
+2022-07-03 11:56:25.018 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@4073572a
+2022-07-03 11:56:25.019 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@48b2576c
+2022-07-03 11:56:25.019 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@48b2576c
+2022-07-03 11:56:25.019 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1ae863a0
+2022-07-03 11:56:25.020 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@5aaf9777
+2022-07-03 11:56:25.020 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@5aaf9777
+2022-07-03 11:56:25.021 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@10d4ae0b
+2022-07-03 11:56:25.021 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@10d4ae0b
+2022-07-03 11:56:25.021 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@77eda5ef
+2022-07-03 11:56:25.021 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@13ee6544
+2022-07-03 11:56:25.022 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@671781eb
+2022-07-03 11:56:25.024 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@482d2f93
+2022-07-03 11:56:25.024 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@482d2f93
+2022-07-03 11:56:25.024 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@60515611
+2022-07-03 11:56:25.025 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@49eb9aaa
+2022-07-03 11:56:25.025 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@f171420
+2022-07-03 11:56:25.025 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@43ba44f3
+2022-07-03 11:56:25.025 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2931734b
+2022-07-03 11:56:25.025 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@3c9a820d
+2022-07-03 11:56:25.025 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@b1b37aa
+2022-07-03 11:56:25.025 DEBUG 12828 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1a1767e6
+2022-07-03 11:56:25.206 DEBUG 12828 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@380a3a47] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@6ae6e73c]
+2022-07-03 11:56:25.412 DEBUG 12828 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@380a3a47] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@53e75ed4]
+2022-07-03 11:56:25.812 TRACE 12828 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@53e75ed4] for TypeConfiguration
+2022-07-03 11:56:26.276  WARN 12828 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-03 11:56:26.289  INFO 12828 --- [restartedMain] c.e.h.controller.UsersController         : UsersController constructor
+2022-07-03 11:56:26.377  WARN 12828 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-03 11:56:26.378  WARN 12828 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/static/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-03 11:56:26.378  WARN 12828 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-03 11:56:26.378  WARN 12828 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-03 11:56:26.378  WARN 12828 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-03 11:56:26.766  INFO 12828 --- [restartedMain] c.e.h.HumanResourcesProjectApplication   : Started HumanResourcesProjectApplication in 3.887 seconds (JVM running for 4.704)
+2022-07-03 11:56:44.841 DEBUG 12828 --- [http-nio-3003-exec-1] org.hibernate.SQL                        : select user0_.id as id1_0_, user0_.account_non_locked as account_2_0_, user0_.address as address3_0_, user0_.email as email4_0_, user0_.failed_attempt as failed_a5_0_, user0_.first_name as first_na6_0_, user0_.last_name as last_nam7_0_, user0_.lock_time as lock_tim8_0_, user0_.password as password9_0_, user0_.phone as phone10_0_, user0_.role as role11_0_, user0_.salary as salary12_0_, user0_.vacation as vacatio13_0_ from users user0_
+2022-07-03 11:56:44.846 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [1]
+2022-07-03 11:56:44.849 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([account_2_0_] : [BOOLEAN]) - [false]
+2022-07-03 11:56:44.849 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address3_0_] : [VARCHAR]) - [532]
+2022-07-03 11:56:44.849 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_0_] : [VARCHAR]) - [ersin@ersin.com]
+2022-07-03 11:56:44.850 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([failed_a5_0_] : [INTEGER]) - [0]
+2022-07-03 11:56:44.850 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na6_0_] : [VARCHAR]) - [Ersn]
+2022-07-03 11:56:44.850 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_0_] : [VARCHAR]) - [Aslan]
+2022-07-03 11:56:44.850 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([lock_tim8_0_] : [TIMESTAMP]) - [null]
+2022-07-03 11:56:44.850 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password9_0_] : [VARCHAR]) - [$2a$10$Vu4QgpHUVhPeAd7/aYNLQeMSX0rlpgQJn6pPhOlI2EpLioyp.t79S]
+2022-07-03 11:56:44.850 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone10_0_] : [VARCHAR]) - [32423]
+2022-07-03 11:56:44.850 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role11_0_] : [VARCHAR]) - [ROLE_USER]
+2022-07-03 11:56:44.850 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([salary12_0_] : [DOUBLE]) - [0.0]
+2022-07-03 11:56:44.851 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([vacatio13_0_] : [TIMESTAMP]) - [null]
+2022-07-03 11:56:44.851 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [3]
+2022-07-03 11:56:44.851 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([account_2_0_] : [BOOLEAN]) - [false]
+2022-07-03 11:56:44.851 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address3_0_] : [VARCHAR]) - [23523]
+2022-07-03 11:56:44.851 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_0_] : [VARCHAR]) - [ersin1@ersin1.com]
+2022-07-03 11:56:44.851 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([failed_a5_0_] : [INTEGER]) - [0]
+2022-07-03 11:56:44.851 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na6_0_] : [VARCHAR]) - [Ersn]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_0_] : [VARCHAR]) - [Aslan]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([lock_tim8_0_] : [TIMESTAMP]) - [null]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password9_0_] : [VARCHAR]) - [$2a$10$QPw1h/fK.ZiNCc0SXgDuXuXZq6J9Q3PtiifqcepdUeNXByPxFhCyO]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone10_0_] : [VARCHAR]) - [1522]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role11_0_] : [VARCHAR]) - [ROLE_USER]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([salary12_0_] : [DOUBLE]) - [0.0]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([vacatio13_0_] : [TIMESTAMP]) - [null]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [4]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([account_2_0_] : [BOOLEAN]) - [false]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address3_0_] : [VARCHAR]) - [admin]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_0_] : [VARCHAR]) - [admin@admin.com]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([failed_a5_0_] : [INTEGER]) - [0]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na6_0_] : [VARCHAR]) - [Admin]
+2022-07-03 11:56:44.852 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_0_] : [VARCHAR]) - [admin]
+2022-07-03 11:56:44.853 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([lock_tim8_0_] : [TIMESTAMP]) - [null]
+2022-07-03 11:56:44.853 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password9_0_] : [VARCHAR]) - [$2a$10$ruyI0l3NAzCWJzb5KUMTTeL8HJRkSBEPR1de2MbD3A5yI3D8BOfHu]
+2022-07-03 11:56:44.853 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone10_0_] : [VARCHAR]) - [admin]
+2022-07-03 11:56:44.853 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role11_0_] : [VARCHAR]) - [ROLE_ADMIN]
+2022-07-03 11:56:44.853 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([salary12_0_] : [DOUBLE]) - [0.0]
+2022-07-03 11:56:44.853 TRACE 12828 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([vacatio13_0_] : [TIMESTAMP]) - [null]
+2022-07-03 11:56:44.858  INFO 12828 --- [http-nio-3003-exec-1] c.e.h.controller.UsersController         : Users: [com.example.humanresourcesproject.model.User@3fbd1846, com.example.humanresourcesproject.model.User@40bea1bb, com.example.humanresourcesproject.model.User@46ba595e]
+2022-07-03 11:56:47.324  WARN 12828 --- [http-nio-3003-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-07-03 11:56:52.381 DEBUG 12828 --- [http-nio-3003-exec-3] org.hibernate.SQL                        : select user0_.id as id1_0_, user0_.account_non_locked as account_2_0_, user0_.address as address3_0_, user0_.email as email4_0_, user0_.failed_attempt as failed_a5_0_, user0_.first_name as first_na6_0_, user0_.last_name as last_nam7_0_, user0_.lock_time as lock_tim8_0_, user0_.password as password9_0_, user0_.phone as phone10_0_, user0_.role as role11_0_, user0_.salary as salary12_0_, user0_.vacation as vacatio13_0_ from users user0_
+2022-07-03 11:56:52.382 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [1]
+2022-07-03 11:56:52.382 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([account_2_0_] : [BOOLEAN]) - [false]
+2022-07-03 11:56:52.382 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address3_0_] : [VARCHAR]) - [532]
+2022-07-03 11:56:52.382 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_0_] : [VARCHAR]) - [ersin@ersin.com]
+2022-07-03 11:56:52.382 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([failed_a5_0_] : [INTEGER]) - [0]
+2022-07-03 11:56:52.382 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na6_0_] : [VARCHAR]) - [Ersn]
+2022-07-03 11:56:52.382 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_0_] : [VARCHAR]) - [Aslan]
+2022-07-03 11:56:52.382 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([lock_tim8_0_] : [TIMESTAMP]) - [null]
+2022-07-03 11:56:52.382 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password9_0_] : [VARCHAR]) - [$2a$10$Vu4QgpHUVhPeAd7/aYNLQeMSX0rlpgQJn6pPhOlI2EpLioyp.t79S]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone10_0_] : [VARCHAR]) - [32423]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role11_0_] : [VARCHAR]) - [ROLE_USER]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([salary12_0_] : [DOUBLE]) - [0.0]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([vacatio13_0_] : [TIMESTAMP]) - [null]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [3]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([account_2_0_] : [BOOLEAN]) - [false]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address3_0_] : [VARCHAR]) - [23523]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_0_] : [VARCHAR]) - [ersin1@ersin1.com]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([failed_a5_0_] : [INTEGER]) - [0]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na6_0_] : [VARCHAR]) - [Ersn]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_0_] : [VARCHAR]) - [Aslan]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([lock_tim8_0_] : [TIMESTAMP]) - [null]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password9_0_] : [VARCHAR]) - [$2a$10$QPw1h/fK.ZiNCc0SXgDuXuXZq6J9Q3PtiifqcepdUeNXByPxFhCyO]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone10_0_] : [VARCHAR]) - [1522]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role11_0_] : [VARCHAR]) - [ROLE_USER]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([salary12_0_] : [DOUBLE]) - [0.0]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([vacatio13_0_] : [TIMESTAMP]) - [null]
+2022-07-03 11:56:52.383 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [4]
+2022-07-03 11:56:52.384 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([account_2_0_] : [BOOLEAN]) - [false]
+2022-07-03 11:56:52.384 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address3_0_] : [VARCHAR]) - [admin]
+2022-07-03 11:56:52.384 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_0_] : [VARCHAR]) - [admin@admin.com]
+2022-07-03 11:56:52.384 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([failed_a5_0_] : [INTEGER]) - [0]
+2022-07-03 11:56:52.384 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na6_0_] : [VARCHAR]) - [Admin]
+2022-07-03 11:56:52.384 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_0_] : [VARCHAR]) - [admin]
+2022-07-03 11:56:52.384 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([lock_tim8_0_] : [TIMESTAMP]) - [null]
+2022-07-03 11:56:52.384 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password9_0_] : [VARCHAR]) - [$2a$10$ruyI0l3NAzCWJzb5KUMTTeL8HJRkSBEPR1de2MbD3A5yI3D8BOfHu]
+2022-07-03 11:56:52.384 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone10_0_] : [VARCHAR]) - [admin]
+2022-07-03 11:56:52.384 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role11_0_] : [VARCHAR]) - [ROLE_ADMIN]
+2022-07-03 11:56:52.384 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([salary12_0_] : [DOUBLE]) - [0.0]
+2022-07-03 11:56:52.384 TRACE 12828 --- [http-nio-3003-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([vacatio13_0_] : [TIMESTAMP]) - [null]
+2022-07-03 11:56:52.386  INFO 12828 --- [http-nio-3003-exec-3] c.e.h.controller.UsersController         : Users: [com.example.humanresourcesproject.model.User@4e114727, com.example.humanresourcesproject.model.User@123c949f, com.example.humanresourcesproject.model.User@7f156f69]
+2022-07-03 11:56:57.850  WARN 12828 --- [http-nio-3003-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-07-03 11:59:22.372 TRACE 12828 --- [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@53e75ed4] for TypeConfiguration
+2022-07-03 11:59:22.372 DEBUG 12828 --- [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@1522579a] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@53e75ed4]
+2022-07-03 11:59:31.689  INFO 11312 --- [restartedMain] c.e.h.HumanResourcesProjectApplication   : Starting HumanResourcesProjectApplication using Java 17.0.2 on DESKTOP-KTQV4OK with PID 11312 (C:\Users\ersin\Desktop\RoadMapCodes\PatikaDevSpringProjects\HumanResourcesProject\target\classes started by KintoAden in C:\Users\ersin\Desktop\RoadMapCodes\PatikaDevSpringProjects\HumanResourcesProject)
+2022-07-03 11:59:31.690 DEBUG 11312 --- [restartedMain] c.e.h.HumanResourcesProjectApplication   : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-03 11:59:31.690  INFO 11312 --- [restartedMain] c.e.h.HumanResourcesProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-03 11:59:33.715 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@a47a373
+2022-07-03 11:59:33.715 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@a47a373
+2022-07-03 11:59:33.715 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@a47a373
+2022-07-03 11:59:33.716 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@299b6fa3
+2022-07-03 11:59:33.716 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@33770fe8
+2022-07-03 11:59:33.717 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@571a092f
+2022-07-03 11:59:33.718 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@71ee0a4
+2022-07-03 11:59:33.718 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@71ee0a4
+2022-07-03 11:59:33.718 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@71ee0a4
+2022-07-03 11:59:33.719 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@303b55fd
+2022-07-03 11:59:33.720 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@303b55fd
+2022-07-03 11:59:33.720 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@303b55fd
+2022-07-03 11:59:33.721 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@501a8a3c
+2022-07-03 11:59:33.721 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@501a8a3c
+2022-07-03 11:59:33.721 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@501a8a3c
+2022-07-03 11:59:33.722 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@7825fab9
+2022-07-03 11:59:33.722 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@7825fab9
+2022-07-03 11:59:33.722 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7825fab9
+2022-07-03 11:59:33.723 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@277e0df8
+2022-07-03 11:59:33.723 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@277e0df8
+2022-07-03 11:59:33.723 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@277e0df8
+2022-07-03 11:59:33.724 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@6fd57129
+2022-07-03 11:59:33.724 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@6fd57129
+2022-07-03 11:59:33.724 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6fd57129
+2022-07-03 11:59:33.725 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@75c9d2ac
+2022-07-03 11:59:33.725 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@75c9d2ac
+2022-07-03 11:59:33.725 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@75c9d2ac
+2022-07-03 11:59:33.725 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@280714e2
+2022-07-03 11:59:33.725 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@280714e2
+2022-07-03 11:59:33.726 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7bdc8e2b
+2022-07-03 11:59:33.727 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7bdc8e2b
+2022-07-03 11:59:33.727 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@2d3e864e
+2022-07-03 11:59:33.728 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@2d3e864e
+2022-07-03 11:59:33.728 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3c1e8499
+2022-07-03 11:59:33.729 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7e4f21b6
+2022-07-03 11:59:33.730 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@335a1ded
+2022-07-03 11:59:33.730 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@335a1ded
+2022-07-03 11:59:33.731 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@5b5de0b1
+2022-07-03 11:59:33.731 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@5b5de0b1
+2022-07-03 11:59:33.731 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@4c0cb420
+2022-07-03 11:59:33.731 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@4c0cb420
+2022-07-03 11:59:33.732 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@e0c77c0
+2022-07-03 11:59:33.732 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@e0c77c0
+2022-07-03 11:59:33.733 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@4cfc9d86
+2022-07-03 11:59:33.733 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@4cfc9d86
+2022-07-03 11:59:33.734 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@343f41ed
+2022-07-03 11:59:33.734 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@343f41ed
+2022-07-03 11:59:33.735 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@542b601f
+2022-07-03 11:59:33.735 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@542b601f
+2022-07-03 11:59:33.735 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@60785640
+2022-07-03 11:59:33.735 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@60785640
+2022-07-03 11:59:33.736 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7a0e5159
+2022-07-03 11:59:33.736 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7a0e5159
+2022-07-03 11:59:33.737 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@596a06f3
+2022-07-03 11:59:33.738 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@596a06f3
+2022-07-03 11:59:33.739 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@e215e4e
+2022-07-03 11:59:33.739 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@e215e4e
+2022-07-03 11:59:33.740 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@750b67a3
+2022-07-03 11:59:33.740 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@750b67a3
+2022-07-03 11:59:33.740 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@750b67a3
+2022-07-03 11:59:33.740 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@184265a2
+2022-07-03 11:59:33.741 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@17e673f
+2022-07-03 11:59:33.742 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@17e673f
+2022-07-03 11:59:33.742 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@17e673f
+2022-07-03 11:59:33.742 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@1e1549b9
+2022-07-03 11:59:33.743 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@1eb8509b
+2022-07-03 11:59:33.743 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@743164b2
+2022-07-03 11:59:33.743 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@743164b2
+2022-07-03 11:59:33.744 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@ef5bbee
+2022-07-03 11:59:33.744 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@ef5bbee
+2022-07-03 11:59:33.744 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@1de880a3
+2022-07-03 11:59:33.744 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1de880a3
+2022-07-03 11:59:33.745 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@5ee9a990
+2022-07-03 11:59:33.745 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5ee9a990
+2022-07-03 11:59:33.746 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@135c92fa
+2022-07-03 11:59:33.746 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@135c92fa
+2022-07-03 11:59:33.746 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@1a8f19e0
+2022-07-03 11:59:33.747 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@2abe9be8
+2022-07-03 11:59:33.747 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@2abe9be8
+2022-07-03 11:59:33.747 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@2abe9be8
+2022-07-03 11:59:33.748 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@72119073
+2022-07-03 11:59:33.748 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@72119073
+2022-07-03 11:59:33.748 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@72119073
+2022-07-03 11:59:33.748 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@3134bbf9
+2022-07-03 11:59:33.749 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@31f9abaf
+2022-07-03 11:59:33.749 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@71e5a7f0
+2022-07-03 11:59:33.749 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@71e5a7f0
+2022-07-03 11:59:33.749 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@71e5a7f0
+2022-07-03 11:59:33.750 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@5dd27c0e
+2022-07-03 11:59:33.750 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@5dd27c0e
+2022-07-03 11:59:33.750 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@5dd27c0e
+2022-07-03 11:59:33.750 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@65351022
+2022-07-03 11:59:33.751 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@3a135680
+2022-07-03 11:59:33.751 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@41d6b337
+2022-07-03 11:59:33.752 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@41d6b337
+2022-07-03 11:59:33.752 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@285c9f5f
+2022-07-03 11:59:33.753 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@44b8831
+2022-07-03 11:59:33.753 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@44b8831
+2022-07-03 11:59:33.754 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@4a035636
+2022-07-03 11:59:33.754 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@4a035636
+2022-07-03 11:59:33.754 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3825d721
+2022-07-03 11:59:33.754 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@38a81ab7
+2022-07-03 11:59:33.758 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@7da32e34
+2022-07-03 11:59:33.760 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@449c0e4b
+2022-07-03 11:59:33.760 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@449c0e4b
+2022-07-03 11:59:33.761 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@515afe27
+2022-07-03 11:59:33.761 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2e506bf0
+2022-07-03 11:59:33.761 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@707cfb0e
+2022-07-03 11:59:33.761 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@7dfa901
+2022-07-03 11:59:33.761 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1f2d41b
+2022-07-03 11:59:33.761 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2cd0303e
+2022-07-03 11:59:33.761 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3b631a21
+2022-07-03 11:59:33.761 DEBUG 11312 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@418e2bed
+2022-07-03 11:59:33.909 DEBUG 11312 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1c539513] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@199ddf8e]
+2022-07-03 11:59:34.078 DEBUG 11312 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1c539513] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@d0c9495]
+2022-07-03 11:59:34.427 TRACE 11312 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@d0c9495] for TypeConfiguration
+2022-07-03 11:59:35.065  WARN 11312 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-03 11:59:35.084  INFO 11312 --- [restartedMain] c.e.h.controller.UsersController         : UsersController constructor
+2022-07-03 11:59:35.182  WARN 11312 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-03 11:59:35.182  WARN 11312 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/static/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-03 11:59:35.182  WARN 11312 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-03 11:59:35.182  WARN 11312 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-03 11:59:35.183  WARN 11312 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-03 11:59:35.639  INFO 11312 --- [restartedMain] c.e.h.HumanResourcesProjectApplication   : Started HumanResourcesProjectApplication in 4.386 seconds (JVM running for 5.365)
+2022-07-03 12:00:11.543 DEBUG 11312 --- [http-nio-3003-exec-1] c.e.h.controller.UsersController         : Deleting user with id: 1
+2022-07-03 12:00:11.558 DEBUG 11312 --- [http-nio-3003-exec-1] org.hibernate.SQL                        : select user0_.id as id1_0_0_, user0_.account_non_locked as account_2_0_0_, user0_.address as address3_0_0_, user0_.email as email4_0_0_, user0_.failed_attempt as failed_a5_0_0_, user0_.first_name as first_na6_0_0_, user0_.last_name as last_nam7_0_0_, user0_.lock_time as lock_tim8_0_0_, user0_.password as password9_0_0_, user0_.phone as phone10_0_0_, user0_.role as role11_0_0_, user0_.salary as salary12_0_0_, user0_.vacation as vacatio13_0_0_ from users user0_ where user0_.id=?
+2022-07-03 12:00:11.561 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
+2022-07-03 12:00:11.568 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([account_2_0_0_] : [BOOLEAN]) - [false]
+2022-07-03 12:00:11.568 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address3_0_0_] : [VARCHAR]) - [532]
+2022-07-03 12:00:11.568 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_0_0_] : [VARCHAR]) - [ersin@ersin.com]
+2022-07-03 12:00:11.569 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([failed_a5_0_0_] : [INTEGER]) - [0]
+2022-07-03 12:00:11.569 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na6_0_0_] : [VARCHAR]) - [Ersn]
+2022-07-03 12:00:11.569 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_0_0_] : [VARCHAR]) - [Aslan]
+2022-07-03 12:00:11.569 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([lock_tim8_0_0_] : [TIMESTAMP]) - [null]
+2022-07-03 12:00:11.569 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password9_0_0_] : [VARCHAR]) - [$2a$10$Vu4QgpHUVhPeAd7/aYNLQeMSX0rlpgQJn6pPhOlI2EpLioyp.t79S]
+2022-07-03 12:00:11.569 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone10_0_0_] : [VARCHAR]) - [32423]
+2022-07-03 12:00:11.569 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role11_0_0_] : [VARCHAR]) - [ROLE_USER]
+2022-07-03 12:00:11.570 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([salary12_0_0_] : [DOUBLE]) - [0.0]
+2022-07-03 12:00:11.570 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([vacatio13_0_0_] : [TIMESTAMP]) - [null]
+2022-07-03 12:00:11.590 DEBUG 11312 --- [http-nio-3003-exec-1] org.hibernate.SQL                        : delete from users where id=?
+2022-07-03 12:00:11.590 TRACE 11312 --- [http-nio-3003-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
+2022-07-03 12:00:11.623 DEBUG 11312 --- [http-nio-3003-exec-2] org.hibernate.SQL                        : select user0_.id as id1_0_, user0_.account_non_locked as account_2_0_, user0_.address as address3_0_, user0_.email as email4_0_, user0_.failed_attempt as failed_a5_0_, user0_.first_name as first_na6_0_, user0_.last_name as last_nam7_0_, user0_.lock_time as lock_tim8_0_, user0_.password as password9_0_, user0_.phone as phone10_0_, user0_.role as role11_0_, user0_.salary as salary12_0_, user0_.vacation as vacatio13_0_ from users user0_
+2022-07-03 12:00:11.624 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [3]
+2022-07-03 12:00:11.624 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([account_2_0_] : [BOOLEAN]) - [false]
+2022-07-03 12:00:11.624 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address3_0_] : [VARCHAR]) - [23523]
+2022-07-03 12:00:11.624 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_0_] : [VARCHAR]) - [ersin1@ersin1.com]
+2022-07-03 12:00:11.624 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([failed_a5_0_] : [INTEGER]) - [0]
+2022-07-03 12:00:11.624 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na6_0_] : [VARCHAR]) - [Ersn]
+2022-07-03 12:00:11.624 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_0_] : [VARCHAR]) - [Aslan]
+2022-07-03 12:00:11.624 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([lock_tim8_0_] : [TIMESTAMP]) - [null]
+2022-07-03 12:00:11.624 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password9_0_] : [VARCHAR]) - [$2a$10$QPw1h/fK.ZiNCc0SXgDuXuXZq6J9Q3PtiifqcepdUeNXByPxFhCyO]
+2022-07-03 12:00:11.625 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone10_0_] : [VARCHAR]) - [1522]
+2022-07-03 12:00:11.625 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role11_0_] : [VARCHAR]) - [ROLE_USER]
+2022-07-03 12:00:11.625 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([salary12_0_] : [DOUBLE]) - [0.0]
+2022-07-03 12:00:11.625 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([vacatio13_0_] : [TIMESTAMP]) - [null]
+2022-07-03 12:00:11.625 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [4]
+2022-07-03 12:00:11.625 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([account_2_0_] : [BOOLEAN]) - [false]
+2022-07-03 12:00:11.625 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address3_0_] : [VARCHAR]) - [admin]
+2022-07-03 12:00:11.625 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_0_] : [VARCHAR]) - [admin@admin.com]
+2022-07-03 12:00:11.625 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([failed_a5_0_] : [INTEGER]) - [0]
+2022-07-03 12:00:11.625 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na6_0_] : [VARCHAR]) - [Admin]
+2022-07-03 12:00:11.626 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_0_] : [VARCHAR]) - [admin]
+2022-07-03 12:00:11.626 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([lock_tim8_0_] : [TIMESTAMP]) - [null]
+2022-07-03 12:00:11.626 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password9_0_] : [VARCHAR]) - [$2a$10$ruyI0l3NAzCWJzb5KUMTTeL8HJRkSBEPR1de2MbD3A5yI3D8BOfHu]
+2022-07-03 12:00:11.626 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone10_0_] : [VARCHAR]) - [admin]
+2022-07-03 12:00:11.626 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role11_0_] : [VARCHAR]) - [ROLE_ADMIN]
+2022-07-03 12:00:11.626 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([salary12_0_] : [DOUBLE]) - [0.0]
+2022-07-03 12:00:11.626 TRACE 11312 --- [http-nio-3003-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([vacatio13_0_] : [TIMESTAMP]) - [null]
+2022-07-03 12:00:11.629  INFO 11312 --- [http-nio-3003-exec-2] c.e.h.controller.UsersController         : Users: [com.example.humanresourcesproject.model.User@7befbdd5, com.example.humanresourcesproject.model.User@5b07704e]
