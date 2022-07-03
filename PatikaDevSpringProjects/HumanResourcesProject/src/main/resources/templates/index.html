@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table class="table table-bordered table-striped">
+    <thead class="thead-light">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Phone</th>
+        <th>Address</th>
+        <th>Salary</th>
+        <th>Vacation Date</th>
+        <div sec:authorize="hasRole('ROLE_ADMIN')">
+            <th>Delete</th>
+        </div>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr th:each="user : ${users}" th:if="${user.email == #authentication.name}">
+        <td th:text="${user.firstName}"/>
+        <td th:text="${user.lastName}"/>
+        <td th:text="${user.phone}"/>
+        <td th:text="${user.address}"/>
+        <td th:text="${user.salary}"/>
+        <td th:text="${user.vacation}"/>
+        <div sec:authorize="hasRole('ROLE_ADMIN')">
+            <td>
+                <a th:href="@{/account/delete(id=${account.id})}"
+                   class="btn btn-danger btn-sm"
+                   onclick="if (!(confirm('Are you sure you want to delete this report?'))) return false ">Delete</a>
+            </td>
+        </div>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

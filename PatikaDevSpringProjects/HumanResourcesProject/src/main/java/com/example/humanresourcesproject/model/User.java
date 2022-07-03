@@ -1,6 +1,5 @@
-package com.example.atmproject.model;
+package com.example.humanresourcesproject.model;
 
-import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.security.core.GrantedAuthority;
@@ -34,17 +33,17 @@ public class User implements UserDetails {
     private String phone;
     private String address;
 
+    private String role;
+
+    private double salary;
+
+    private Date vacation;
+
     private boolean account_non_locked;
 
     private int failed_attempt;
 
     private Date lock_time;
-
-    private String role;
-
-
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    private Collection<Account> accounts;
 
 
     @Override
