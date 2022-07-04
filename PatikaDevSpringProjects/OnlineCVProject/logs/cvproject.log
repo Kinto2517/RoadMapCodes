@@ -1,0 +1,169 @@
+2022-07-04 07:17:34.587  INFO 11532 --- [restartedMain] c.e.o.OnlineCvProjectApplication         : Starting OnlineCvProjectApplication using Java 17.0.2 on DESKTOP-KTQV4OK with PID 11532 (C:\Users\ersin\Desktop\RoadMapCodes\PatikaDevSpringProjects\OnlineCVProject\target\classes started by KintoAden in C:\Users\ersin\Desktop\RoadMapCodes\PatikaDevSpringProjects\OnlineCVProject)
+2022-07-04 07:17:34.588 DEBUG 11532 --- [restartedMain] c.e.o.OnlineCvProjectApplication         : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-04 07:17:34.589  INFO 11532 --- [restartedMain] c.e.o.OnlineCvProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 07:17:35.930 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@108f479d
+2022-07-04 07:17:35.930 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@108f479d
+2022-07-04 07:17:35.930 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@108f479d
+2022-07-04 07:17:35.931 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@64a431cb
+2022-07-04 07:17:35.931 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@233fd5f9
+2022-07-04 07:17:35.932 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@5ece604
+2022-07-04 07:17:35.933 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@c62e5d7
+2022-07-04 07:17:35.933 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@c62e5d7
+2022-07-04 07:17:35.933 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@c62e5d7
+2022-07-04 07:17:35.933 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@172b800c
+2022-07-04 07:17:35.933 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@172b800c
+2022-07-04 07:17:35.934 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@172b800c
+2022-07-04 07:17:35.934 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@54ccc44f
+2022-07-04 07:17:35.935 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@54ccc44f
+2022-07-04 07:17:35.935 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@54ccc44f
+2022-07-04 07:17:35.935 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@67693994
+2022-07-04 07:17:35.935 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@67693994
+2022-07-04 07:17:35.935 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@67693994
+2022-07-04 07:17:35.936 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@6f102294
+2022-07-04 07:17:35.936 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@6f102294
+2022-07-04 07:17:35.936 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@6f102294
+2022-07-04 07:17:35.937 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@793a4c2b
+2022-07-04 07:17:35.937 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@793a4c2b
+2022-07-04 07:17:35.937 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@793a4c2b
+2022-07-04 07:17:35.938 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@20bb1407
+2022-07-04 07:17:35.938 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@20bb1407
+2022-07-04 07:17:35.938 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@20bb1407
+2022-07-04 07:17:35.938 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@1b6ecd9f
+2022-07-04 07:17:35.938 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@1b6ecd9f
+2022-07-04 07:17:35.939 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7b7a3336
+2022-07-04 07:17:35.939 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7b7a3336
+2022-07-04 07:17:35.939 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@379f2e51
+2022-07-04 07:17:35.939 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@379f2e51
+2022-07-04 07:17:35.940 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@e4fc25f
+2022-07-04 07:17:35.940 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@259e2224
+2022-07-04 07:17:35.941 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@659d6184
+2022-07-04 07:17:35.941 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@659d6184
+2022-07-04 07:17:35.942 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@9d38794
+2022-07-04 07:17:35.942 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@9d38794
+2022-07-04 07:17:35.943 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@76a0a062
+2022-07-04 07:17:35.943 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@76a0a062
+2022-07-04 07:17:35.943 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@2e5b3984
+2022-07-04 07:17:35.943 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@2e5b3984
+2022-07-04 07:17:35.944 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@51efb0ac
+2022-07-04 07:17:35.944 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@51efb0ac
+2022-07-04 07:17:35.944 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@40e9485c
+2022-07-04 07:17:35.945 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@40e9485c
+2022-07-04 07:17:35.945 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@21bca496
+2022-07-04 07:17:35.945 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@21bca496
+2022-07-04 07:17:35.946 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@55e3b7e0
+2022-07-04 07:17:35.946 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@55e3b7e0
+2022-07-04 07:17:35.947 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@36c8b0a9
+2022-07-04 07:17:35.947 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@36c8b0a9
+2022-07-04 07:17:35.948 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@7c718b2d
+2022-07-04 07:17:35.948 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@7c718b2d
+2022-07-04 07:17:35.949 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@9e1cbf2
+2022-07-04 07:17:35.949 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@9e1cbf2
+2022-07-04 07:17:35.949 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@27372515
+2022-07-04 07:17:35.949 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@27372515
+2022-07-04 07:17:35.949 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@27372515
+2022-07-04 07:17:35.950 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4b82a078
+2022-07-04 07:17:35.951 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@76b5cc8b
+2022-07-04 07:17:35.951 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@76b5cc8b
+2022-07-04 07:17:35.951 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@76b5cc8b
+2022-07-04 07:17:35.952 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3cae9fbc
+2022-07-04 07:17:35.952 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@6493303a
+2022-07-04 07:17:35.953 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@7ddb0272
+2022-07-04 07:17:35.953 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@7ddb0272
+2022-07-04 07:17:35.953 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@3d7769b1
+2022-07-04 07:17:35.953 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3d7769b1
+2022-07-04 07:17:35.954 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@53acef51
+2022-07-04 07:17:35.954 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@53acef51
+2022-07-04 07:17:35.954 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@74866c3a
+2022-07-04 07:17:35.954 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@74866c3a
+2022-07-04 07:17:35.955 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1fbf2f4f
+2022-07-04 07:17:35.955 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1fbf2f4f
+2022-07-04 07:17:35.955 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@19f94aef
+2022-07-04 07:17:35.956 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@5a22c88b
+2022-07-04 07:17:35.956 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@5a22c88b
+2022-07-04 07:17:35.956 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@5a22c88b
+2022-07-04 07:17:35.956 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@52f6f385
+2022-07-04 07:17:35.956 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@52f6f385
+2022-07-04 07:17:35.956 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@52f6f385
+2022-07-04 07:17:35.957 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@7f22eb7a
+2022-07-04 07:17:35.957 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@5cc11433
+2022-07-04 07:17:35.957 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@2b02983
+2022-07-04 07:17:35.958 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@2b02983
+2022-07-04 07:17:35.958 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@2b02983
+2022-07-04 07:17:35.958 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@3542e75e
+2022-07-04 07:17:35.958 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@3542e75e
+2022-07-04 07:17:35.958 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@3542e75e
+2022-07-04 07:17:35.958 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@33041bc8
+2022-07-04 07:17:35.959 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@65314b54
+2022-07-04 07:17:35.959 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@76d6a04f
+2022-07-04 07:17:35.959 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@76d6a04f
+2022-07-04 07:17:35.960 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@5688e493
+2022-07-04 07:17:35.960 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@1c02be7
+2022-07-04 07:17:35.960 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1c02be7
+2022-07-04 07:17:35.961 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@11d0710
+2022-07-04 07:17:35.961 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@11d0710
+2022-07-04 07:17:35.961 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1413c5cc
+2022-07-04 07:17:35.961 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@286737de
+2022-07-04 07:17:35.962 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@3a690e24
+2022-07-04 07:17:35.964 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@133ccaa4
+2022-07-04 07:17:35.964 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@133ccaa4
+2022-07-04 07:17:35.964 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@eed8721
+2022-07-04 07:17:35.964 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@14fa2a89
+2022-07-04 07:17:35.964 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@275c521d
+2022-07-04 07:17:35.964 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@54067c64
+2022-07-04 07:17:35.964 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@36b03d4a
+2022-07-04 07:17:35.964 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@73dbe777
+2022-07-04 07:17:35.964 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@36d29fab
+2022-07-04 07:17:35.964 DEBUG 11532 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@51d03049
+2022-07-04 07:17:36.107 DEBUG 11532 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7b242554] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@4ee699fa]
+2022-07-04 07:17:36.231 DEBUG 11532 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7b242554] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@74783cc1]
+2022-07-04 07:17:36.468 DEBUG 11532 --- [restartedMain] org.hibernate.SQL                        : create table cv (id bigint not null auto_increment, job_description varchar(255), job_location varchar(255), job_salary varchar(255), job_title varchar(255), job_type varchar(255), primary key (id)) engine=InnoDB
+2022-07-04 07:17:36.488 DEBUG 11532 --- [restartedMain] org.hibernate.SQL                        : create table users (id bigint not null auto_increment, account_non_locked bit not null, address varchar(255), email varchar(255), experience varchar(255), failed_attempt integer not null, first_name varchar(255), last_name varchar(255), lock_time datetime(6), password varchar(255), phone varchar(255), role varchar(255), primary key (id)) engine=InnoDB
+2022-07-04 07:17:36.502 DEBUG 11532 --- [restartedMain] org.hibernate.SQL                        : alter table users drop index UK_6dotkott2kjsp8vw4d0m25fb7
+2022-07-04 07:17:36.511 DEBUG 11532 --- [restartedMain] org.hibernate.SQL                        : alter table users add constraint UK_6dotkott2kjsp8vw4d0m25fb7 unique (email)
+2022-07-04 07:17:36.528 TRACE 11532 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@74783cc1] for TypeConfiguration
+2022-07-04 07:17:36.839  WARN 11532 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-04 07:17:36.874  INFO 11532 --- [restartedMain] c.e.o.controller.UsersController         : UsersController constructor
+2022-07-04 07:17:36.936  WARN 11532 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-04 07:17:36.936  WARN 11532 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/static/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-04 07:17:36.936  WARN 11532 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-04 07:17:36.937  WARN 11532 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-04 07:17:36.937  WARN 11532 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-04 07:17:37.260  INFO 11532 --- [restartedMain] c.e.o.OnlineCvProjectApplication         : Started OnlineCvProjectApplication in 2.967 seconds (JVM running for 3.527)
+2022-07-04 07:25:54.315  INFO 11532 --- [http-nio-3004-exec-2] c.e.o.controller.UsersController         : login()
+2022-07-04 07:25:54.664  INFO 11532 --- [http-nio-3004-exec-4] c.e.o.controller.UsersController         : login()
+2022-07-04 07:25:55.836  INFO 11532 --- [http-nio-3004-exec-5] c.e.o.controller.UsersController         : showRegistrationForm()
+2022-07-04 07:25:55.952  INFO 11532 --- [http-nio-3004-exec-7] c.e.o.controller.UsersController         : login()
+2022-07-04 07:26:07.607  INFO 11532 --- [http-nio-3004-exec-8] c.e.o.controller.UsersController         : processRegistrationForm()
+2022-07-04 07:26:07.608  INFO 11532 --- [http-nio-3004-exec-8] c.e.o.controller.UsersController         : processRegistrationForm(): user: com.example.onlinecvproject.model.User@12128189
+2022-07-04 07:26:07.709 DEBUG 11532 --- [http-nio-3004-exec-8] org.hibernate.SQL                        : insert into users (account_non_locked, address, email, experience, failed_attempt, first_name, last_name, lock_time, password, phone, role) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-07-04 07:26:07.712 TRACE 11532 --- [http-nio-3004-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [false]
+2022-07-04 07:26:07.713 TRACE 11532 --- [http-nio-3004-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [Yeni District 297. Street]
+2022-07-04 07:26:07.713 TRACE 11532 --- [http-nio-3004-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [ersin@ersin.com]
+2022-07-04 07:26:07.713 TRACE 11532 --- [http-nio-3004-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [null]
+2022-07-04 07:26:07.713 TRACE 11532 --- [http-nio-3004-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [INTEGER] - [0]
+2022-07-04 07:26:07.713 TRACE 11532 --- [http-nio-3004-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [VARCHAR] - [Ersn]
+2022-07-04 07:26:07.713 TRACE 11532 --- [http-nio-3004-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [VARCHAR] - [Aslan]
+2022-07-04 07:26:07.714 TRACE 11532 --- [http-nio-3004-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [8] as [TIMESTAMP] - [null]
+2022-07-04 07:26:07.714 TRACE 11532 --- [http-nio-3004-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [9] as [VARCHAR] - [$2a$10$yY4AZnNUVoLHwDEAJu4iluiRVS7sDOBjJbLQAVuyYz97JQvWxFFLq]
+2022-07-04 07:26:07.714 TRACE 11532 --- [http-nio-3004-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [10] as [VARCHAR] - [12345]
+2022-07-04 07:26:07.714 TRACE 11532 --- [http-nio-3004-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [11] as [VARCHAR] - [ROLE_USER]
+2022-07-04 07:26:07.732  INFO 11532 --- [http-nio-3004-exec-9] c.e.o.controller.UsersController         : login()
+2022-07-04 07:26:07.831  INFO 11532 --- [http-nio-3004-exec-1] c.e.o.controller.UsersController         : login()
+2022-07-04 07:26:08.826  INFO 11532 --- [http-nio-3004-exec-2] c.e.o.controller.UsersController         : showRegistrationForm()
+2022-07-04 07:26:08.916  INFO 11532 --- [http-nio-3004-exec-4] c.e.o.controller.UsersController         : login()
+2022-07-04 07:26:17.683  INFO 11532 --- [http-nio-3004-exec-5] c.e.o.controller.UsersController         : processRegistrationForm()
+2022-07-04 07:26:17.684  INFO 11532 --- [http-nio-3004-exec-5] c.e.o.controller.UsersController         : processRegistrationForm(): user: com.example.onlinecvproject.model.User@c6acfcc
+2022-07-04 07:26:17.758 DEBUG 11532 --- [http-nio-3004-exec-5] org.hibernate.SQL                        : insert into users (account_non_locked, address, email, experience, failed_attempt, first_name, last_name, lock_time, password, phone, role) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-07-04 07:26:17.758 TRACE 11532 --- [http-nio-3004-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [false]
+2022-07-04 07:26:17.758 TRACE 11532 --- [http-nio-3004-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [sdg]
+2022-07-04 07:26:17.758 TRACE 11532 --- [http-nio-3004-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [admin@admin.com]
+2022-07-04 07:26:17.759 TRACE 11532 --- [http-nio-3004-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [null]
+2022-07-04 07:26:17.759 TRACE 11532 --- [http-nio-3004-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [INTEGER] - [0]
+2022-07-04 07:26:17.759 TRACE 11532 --- [http-nio-3004-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [VARCHAR] - [admin]
+2022-07-04 07:26:17.759 TRACE 11532 --- [http-nio-3004-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [VARCHAR] - [admin]
+2022-07-04 07:26:17.759 TRACE 11532 --- [http-nio-3004-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [8] as [TIMESTAMP] - [null]
+2022-07-04 07:26:17.759 TRACE 11532 --- [http-nio-3004-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [9] as [VARCHAR] - [$2a$10$k1YyaGo3479XT9qgmksIw.RZWK4c7TCPCxxIEgoNH5WceEeCJtL1i]
+2022-07-04 07:26:17.759 TRACE 11532 --- [http-nio-3004-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [10] as [VARCHAR] - [12345]
+2022-07-04 07:26:17.759 TRACE 11532 --- [http-nio-3004-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [11] as [VARCHAR] - [ROLE_USER]
+2022-07-04 07:26:17.765  INFO 11532 --- [http-nio-3004-exec-6] c.e.o.controller.UsersController         : login()
+2022-07-04 07:26:17.853  INFO 11532 --- [http-nio-3004-exec-8] c.e.o.controller.UsersController         : login()
