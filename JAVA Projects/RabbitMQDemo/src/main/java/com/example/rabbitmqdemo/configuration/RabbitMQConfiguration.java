@@ -39,7 +39,7 @@ public class RabbitMQConfiguration {
     HeadersExchange headersExchange() {
         return new HeadersExchange("headersExchange");
     }
-    
+
 
 
     @Bean
