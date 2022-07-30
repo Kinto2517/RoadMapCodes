@@ -4,7 +4,7 @@ Bu proje ile Cat ve Rapper olarak sanatçıları ve Song olarak da şarkı ekley
 
 ## Proje Hakkında
 
-<img style="width:13rem; height:auto" src="https://raw.githubusercontent.com/Kinto2517/Bootcamp/rappers/img/mostliked.jpeg"/>
+<img style="width:13rem; height:auto" src="https://raw.githubusercontent.com/Kinto2517/Bootcamp/rappers/img/master/mostliked.jpeg"/>
 
 
 ### Gereklilikler
