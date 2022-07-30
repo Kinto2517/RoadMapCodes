@@ -1,4 +1,7 @@
 # Grispi Bootcamp Muzik ve Beğeni Projesi
+``
+    Cat: Eski dönemlerde Jazz muzisyenlerine takılan isim. Kedişko değil yani.
+``
 
 Bu proje ile Cat ve Rapper olarak sanatçıları ve Song olarak da şarkı ekleyebiliyoruz. Userlar ise istedikleri şarkıyı Likelayabiliyor ve en çok beğenilen şarkı görüntülenebiliyor.   
 
@@ -42,6 +45,6 @@ Bu proje ile Cat ve Rapper olarak sanatçıları ve Song olarak da şarkı ekley
 Ersin Yılmaz ASLAN
 ex. [@Kinto2517](https://github.com/Kinto2517)
 
-## Lisans
+## Geliştirme Önerileri
 
-This project is licensed under the Kinto2517 License - see the LICENSE.md file for details
+MostLiked sorgusu ile Liste döndürülebilir.
